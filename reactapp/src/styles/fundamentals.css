@@ -1,0 +1,155 @@
+/*Typography*/
+@import url("https://fonts.googleapis.com/css2?family=Inconsolata:wght@400;900&family=Montserrat:wght@700;900&display=swap");
+
+.body {
+  font-family: "Inconsolata";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 32px;
+}
+
+.bodyBold {
+  font-family: "Inconsolata";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 16px;
+  line-height: 32px;
+}
+
+.annotation {
+  font-family: "Inconsolata";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 18px;
+}
+
+.mention {
+  font-family: "Inconsolata";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+}
+
+.h1 {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 60px;
+  line-height: 58px;
+  letter-spacing: 8.74848px;
+}
+
+.h2 {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 60px;
+  /* or 188% */
+  letter-spacing: 8.74848px;
+  text-transform: uppercase;
+}
+
+.h3 {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 16px;
+  line-height: 25px;
+  letter-spacing: 8.74848px;
+  text-transform: uppercase;
+}
+
+.h1 {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 60px;
+}
+
+/*text color*/
+.textColorPrimary {
+  color: #0050ae;
+}
+
+.textColorG1 {
+  color: #333333;
+}
+
+.textColorG2 {
+  color: #4f4f4f;
+}
+
+.textColorG3 {
+  color: #828282;
+}
+
+.textColorG4 {
+  color: #bdbdbd;
+}
+
+.textColorG5 {
+  color: #e0e0e0;
+}
+
+.textColorG6 {
+  color: #f2f2f2;
+}
+
+.textColorWhite {
+  color: #FFFFFF
+}
+
+/*BG color*/
+
+.BGColorPrimary {
+  color: #0050ae;
+}
+
+.BGColorG1 {
+  background-color: #333333;
+}
+
+.BGColorG2 {
+  background-color: #4f4f4f;
+}
+
+.BGColorG3 {
+  background-color: #828282;
+}
+
+.BGColorG4 {
+  background-color: #bdbdbd;
+}
+
+.BGColorG5 {
+  background-color: #e0e0e0;
+}
+
+.BGColorG6 {
+  background-color: #f2f2f2;
+}
+
+@media screen and (max-width: 1200px) {
+  .h1 {
+    font-size: 40px;
+    line-height: 40px;
+    letter-spacing: 6px;
+  }
+  
+  .h2 {
+    font-size: 22px;
+    line-height: 28px;
+    /* or 188% */
+    letter-spacing: 8.74848px;
+  }
+  
+  .h3 {
+    font-size: 16px;
+    line-height: 25px;
+    letter-spacing: 8.74848px;
+  }
+}

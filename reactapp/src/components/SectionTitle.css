@@ -1,0 +1,30 @@
+.sectionContainer {
+    display: flex;
+    flex-direction: column;
+    width: calc(100% - 240px);
+    margin-top: 80px;
+    margin-bottom: 80px;
+    gap: 8px;
+    z-index: 2;
+}
+
+.sectionTextContainer {
+    display: flex;
+    flex-direction: column;
+}
+
+.sectionDivider {
+    height: 1px;
+    width: 100%;
+}
+
+@media screen and (max-width: 1200px) {
+    .sectionContainer {
+        width: 100%;
+        margin-top: 24px;
+        margin-bottom: 24px;
+    }
+    .sectionText{
+        text-align: center;
+    }
+  }

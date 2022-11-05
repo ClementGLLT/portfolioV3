@@ -1,0 +1,102 @@
+html {
+    margin: 0px !important;
+    background-color: rgb(255, 255, 255);
+    scroll-behavior: smooth;
+}
+.mainMainContainer{
+    display: flex;
+    justify-content: center;
+}
+
+.mainContainer {
+    max-width: 1400px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    margin-bottom: 72px;
+
+} 
+
+.leftColumn{
+ background-color: rgba(127, 255, 212, 0.059);
+ height: 100%;
+}
+
+.rightSidebar {
+    background-color: blue;
+    height: 100%;
+
+}
+
+.buttontest {
+    z-index: 2;
+}
+
+.sections{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    width: calc(100% - 176px);
+    /* height: calc(100vh - 148px); */
+    gap: 40px; 
+    z-index: 2;
+}
+
+.sectionProject{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    width: calc(100% - 176px);
+    /* height: calc(100vh - 148px); */
+    gap: 40px; 
+    z-index: 2;
+}
+
+.projectWrapper{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    width: 1000px;
+    gap: 120px; 
+    z-index: 2;
+}
+
+.buttonTile {
+    background-color: inherit;
+    border-width: inherit;
+    padding: inherit;
+
+}
+
+@media screen and (max-width: 1200px) {
+    .projectWrapper {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 16px;
+    }
+    .sectionProject{
+        width: calc(100% - 32px);
+        padding: 0 16px 0 16px;
+        gap: 24px;
+    }
+    .sections{
+        width: calc(100% - 32px);
+        padding: 0 16px 0 16px;
+        gap: 24px;
+    }
+    .mainContainer{
+        gap: 0px;
+
+    }
+  }
+

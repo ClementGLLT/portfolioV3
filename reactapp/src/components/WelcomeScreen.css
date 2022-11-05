@@ -1,0 +1,153 @@
+.welcomeScreenMainContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: calc(100% - 176px);
+    height: calc(100vh - 148px);
+    margin-top: 72px;
+    margin-bottom: 72px;
+    gap: 40px; 
+    z-index: 2;
+}
+
+.welcomeScreenMainTopContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 32px;
+}
+
+.welcomeScreenTopLeftContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-end;
+    width: 360px;
+    gap: 16px;
+}
+
+.name {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-end;
+    width: 360px;
+}
+
+
+
+.welcomeScreenTopRightContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-end;
+    width: 360px;
+    height: 100%;
+}
+
+.welcomeScreenBottomLeftContainer1{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    width: 360px;
+    gap: 8px;
+}
+
+.welcomeScreenBottomLeftContainer2{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-end;
+    width: 360px;
+}
+
+.welcomeScreenDivider {
+    width: 1px;
+    height: 100%;
+}
+
+.img {
+    width: 360px;
+}
+
+.button {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+}
+
+@media screen and (max-width: 1200px) {
+    .welcomeScreenMainContainer {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: 32px;
+        margin-bottom: 0;
+        width: 100%;
+        height: auto;
+        gap: 24px; 
+        z-index: 2;
+        padding: 16px 16px 16px 16px;
+    }
+    .welcomeScreenMainTopContainer {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 32px;
+        padding: 32px 16px 32px 16px;
+    }
+    .name {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: auto;
+    }
+    .welcomeScreenTopLeftContainer {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: auto;
+        gap: 16px;
+    }
+    .welcomeScreenBottomLeftContainer1{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        width: auto;
+        gap: 8px;
+    }
+    .welcomeScreenBottomLeftContainer2{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-end;
+        width: auto;
+    }
+    .img {
+        width: calc(100vw - 32px);
+        max-width: 320px;
+    }
+    .welcomeScreenTopRightContainer {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+        align-items: flex-end;
+        width: auto;
+        max-width: 600px;
+        height: 100%;
+    }
+    .button {
+        display: none;
+    }
+}
+  

@@ -1,0 +1,187 @@
+.experienceSectionMainContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 40px;
+}
+
+.expListLGContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 0px;
+}
+
+.hider {
+  width: 580px;
+  opacity: 0;
+  transition: all 0.8s cubic-bezier(0.38, 0, 0, 1);
+}
+
+.hover {
+  color: #333333;
+  font-weight: 100;
+  width: 100%;
+  line-height: 40px;
+}
+
+.hover:hover {
+  color: #0050ae;
+  font-weight: 900;
+  font-style: italic;
+}
+
+.expListLGContainer:hover ~ .hider {
+  opacity: 1;
+}
+.expListLGContainer:hover .hover:not(:hover) {
+  color: #828282;
+}
+
+.tableDetailsContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 16px;
+}
+
+.titleContainer {
+  display: none;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 100%;
+}
+
+.dividerTitle {
+  height: 1px;
+  width: 100%;
+}
+
+.subSectionTableContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 0px;
+}
+
+.ss1 {
+  min-width: 25%;
+  max-width: 25%;
+}
+
+.ss2 {
+  min-width: 50%;
+  max-width: 50%;
+}
+
+.ss3 {
+  min-width: 25%;
+  max-width: 25%;
+}
+
+.subSectionWrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 16px;
+  min-width: 100%;
+}
+
+.titleSubSectionTable {
+}
+
+.descriptionSubSectionTable {
+}
+
+@media screen and (max-width: 1200px) {
+  .experienceSectionMainContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+    gap: 40px;
+    width: 100%;
+  }
+  .expListLGContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    padding: 0px;
+    gap: 16px;
+  }
+  .hover {
+    font-family: "Inconsolata";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 14px;
+  color: #0050ae;
+    width: auto;
+    padding: 8px 16px 8px 16px;
+    background-color: #fff;
+    border: solid 1px #0050ae;
+    border-radius:16px;
+    text-align: center;
+  }
+  .hover:active {
+    color: #fff;
+    background-color: #0050ae;
+
+  }
+  .hider {
+    max-width: 600px;
+    width: 100%;
+    opacity: 1;
+  }
+  .subSectionWrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+    gap: 16px;
+    max-width: auto;
+  }
+  .tableDetailsContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    max-width: 100% !important;
+    padding: 16px;
+    gap: 16px;
+    background-color: #f2f2f2;
+    border: solid 1px #e0e0e0;
+    border-radius: 16px;
+  }
+  .titleContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    width: 100%;
+  }
+  .ss1 {
+    min-width: 0px;
+    max-width: 100%;
+  }
+  
+  .ss2 {
+    min-width: 0px;
+    max-width: 100%;
+  }
+  
+  .ss3 {
+    min-width: 0px;
+    max-width: 100%;
+  }
+  
+}

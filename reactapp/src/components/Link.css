@@ -1,0 +1,16 @@
+.linkContainer{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+}
+
+.linkText{
+    text-decoration: underline;
+    opacity: 0.5;
+}
+
+.linkText:hover{
+    opacity: 1;
+}
